@@ -1,0 +1,163 @@
+/*font-family: 'Indie Flower', cursive;
+font-family: 'Shadows Into Light', cursive;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+
+
+/*etiquetas*/
+body{
+background-image: url(../img/fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+
+h1{
+font-family: 'Indie Flower', cursive;
+color: #0000cd;
+margin-left:  10px;
+font-size:  30px;
+text-align: center;	
+}
+
+h2{
+font-family: Broadway;
+color: #f5f5f5;
+font-size: 20px;
+text-align: center;	
+}
+
+h3{
+font-family: 'Shadows Into Light', cursive;
+color:#228b22;
+margin-left:  10px;
+font-size:  30px;
+text-align: left;	
+}
+
+header {
+	width: 1000px;
+	height: 160px;
+	background: rgb(255, 255, 255, 3,5);
+	}
+
+nav{
+/*barra inicio*/
+width: 1000px;
+height: 60px;
+background-image: url(../img/imagen.jpg);
+border-radius: 10px;
+
+}
+ul{
+margin:auto;
+padding-top: 4px;
+}
+/*botones*/
+li{
+   float: left;
+   list-style-type: none;
+   padding: 10px;
+   background: #A4A4A4;
+   margin: 3px;   
+   border-radius: 10px;
+   box-shadow: 0 0 10px #000000 inset;
+}
+
+section{
+	width: 700px;
+	background-image: url(../img/textura.jpg);
+	height: 600px;
+	float: left;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+audio{
+	border-radius: 10px; 
+	margin-left: 100px;
+
+}
+/*barra del navegador*/
+aside{
+	width: 280px;
+	background-image: url(../img/textura.jpg);
+     height: 600px;
+	float: left;
+	margin-left:15px; 
+	margin-top: 40px;
+	border-radius: 10px;
+}
+img{
+    border-radius: 20px; 
+	margin-left: 0px;
+}
+
+/*pie de pagina*/
+footer{
+width: 1000px;
+height: 60px;
+background-image: url(../img/imagen.jpg);
+float: left;
+margin-top: 20px;
+border-radius: 10px; 
+margin-bottom: 20px; 
+}
+
+/*parrafo*/
+p{	
+font-size: 14px;
+font-weight: bolder;
+line-height: 24px;
+padding: 10px;
+text-align: justify;
+color: #000000;
+
+}
+
+
+/*clases*/
+	
+.ancho_menu_home{width:900px;}
+.ancho_menu_paginas{width:970px;}
+
+
+
+.menu:link{color:#000000; text-decoration:none;}
+.menu:visited{color:#000000; text-decoration:none;}
+.menu:hover{color:#000000; text-decoration:none; text-shadow: 0 0 13px #f5f5f5;}
+.menu:active{color:#000000; text-decoration:none;}
+
+
+
+
+/*seudo clases*/
+li:hover{
+	/*color para botones*/
+	background: #dcdcdc;
+	box-shadow: 0 0 10px #dcdcdc;inset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
